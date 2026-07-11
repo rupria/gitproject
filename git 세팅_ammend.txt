@@ -1,0 +1,472 @@
+# git 세팅_ammend 관련
+
+    1  pwd
+    2  ls
+    3  ls -a
+    4  ls -l
+    5  ls -al
+    6  clear
+    7  pwd
+    8  cd ..
+    9  ls
+   10  cd ~
+   11  pwd
+   12  cd .
+   13  pwd
+   14  cd ..
+   15  cd .
+   16  cd ~
+   17  cd ./Desktop/
+   18  pwd
+   19  clear
+   20  mkdir clolr
+   21  pwd
+   22  ls
+   23  rm -r color
+   24  ls
+   25  rm -r color
+   26  rm -r clolr
+   27  mkdir color
+   28  ls
+   29  cd color
+   30  pwd
+   31  touch green.txt
+   32  ls -a
+   33  rm green.txt
+   34  ls
+   35  vi red.txt
+   36  cat red.txt
+   37  vi red.txt
+   38  ls
+   39  mv red.txt yellow.txt
+   40  ls
+   41  cat yellow.txt
+   42  cd ..
+   43  mkdir first
+   44  ls
+   45  mv ./color/red.txt ./first
+   46  mv ./color/yellow.txt ./first
+   47  cd first
+   48  ls
+   49  cd ..
+   50  cd color
+   51  ls
+   52  history
+   53  history > data.txt
+   54  ls
+   55  cat data.txt
+   56  exit
+   57  mkdir person
+   58  cd person
+   59  ls
+   60  mkdir man
+   61  mkdir woman
+   62  ls
+   63  qwd
+   64  cd man
+   65  touch sun.txt
+   66  ls
+   67  echo '안녕하세요' > sun.txt
+   68  cat sun.txt
+   69  cd.
+   70  mv su.txt ../person
+   71  mv sun.txt ../person
+   72  mv sun.txt ..
+   73  cd ..
+   74  ls
+   75  cat person
+   76  cd ..
+   77  rm -rf person
+   78  ls
+   79  rm -rf color
+   80  rm -rf first
+   81  ls
+   82  clear
+   83  mkdir person
+   84  cd person
+   85  mkdir man woman
+   86  cd person
+   87  ls
+   88  echo man sun.txt
+   89  vi sun.txt
+   90  cat sun.txt
+   91  mv sun.txt ..person
+   92  ls
+   93  mv sun.txt person
+   94  ls
+   95  mv sun.txt person
+   96  cd..
+   97  clear
+   98  cd..
+   99  cd.
+  100  cd man
+  101  ls
+  102  cd..
+  103  cd person
+  104  cd person
+  105  cd ~
+  106  rm -rf person
+  107  rm -rf person
+  108  ls
+  109  cd.desktop
+  110  cd desktop
+  111  rm -rf person
+  112  mkdir person
+  113  cd person
+  114  mk dir man woman
+  115  mkdir man woman
+  116  ls
+  117  cd man
+  118  cd..
+  119  cd.
+  120  cd ..
+  121  echo sun.txt ./man
+  122  touch sun.txt '안녕하세요''
+  123  qw
+  124  :qw
+  125  wq
+  126  ls
+  127  echo sun.txt
+  128  ls
+  129  cd man
+  130  mkdir sun.txt
+  131  ls
+  132  touch sun.txt '안녕하세요'
+  133  cat sun.txt
+  134  cat sun.txt
+  135  rm - rf '안녕하세요'
+  136  rm - rf sum.txt
+  137  ls
+  138  rm - rf sum=n.txt
+  139  rm - rf sun.txt
+  140  rm - sun.txt
+  141  mk sun.txt
+  142  touch sun.txt
+  143  ls
+  144  echo sun.txt '안녕하세요'
+  145  cat sun.txt
+  146  cd ..
+  147  cd ..
+  148  mv sun.txt ./person
+  149  mv sun.txt person
+  150  cd person
+  151  ls
+  152  mv sun.txt person
+  153  mv sun.txt person
+  154  ls
+  155  cd man
+  156  ls
+  157  mv sun.txt person
+  158  ls
+  159  mv person.txt sun
+  160  mv person ..
+  161  cd ..
+  162  ls
+  163  mv person sun.txt
+  164  ls
+  165  history > data.txt
+  166  clear
+  167  cdc ..
+  168  cd ..
+  169  ls
+  170  rm -rf person
+  171  mkdir color
+  172  ls
+  173  cd color
+  174  mkdir red
+  175  ls
+  176  mkdir green blue
+  177  ls
+  178  touch red/a.txt red/b.txt
+  179  ls red
+  180  ls ./red
+  181  mv ./red/b.txt ./red/keep.txt
+  182  ls red
+  183  cd ..
+  184  ls
+  185  rm -rf person
+  186  rm person
+  187  cd color
+  188  mv ./blue ./red
+  189  ls
+  190  cd ~
+  191  cd desktop
+  192  ls
+  193  rmdir person
+  194  rmdir person
+  195  ls
+  196  rm -rf color
+  197  rm -rf person
+  198  mkdir color
+  199  cd color
+  200  mkdir blue red
+  201  ls
+  202  mv blue green
+  203  ls
+  204  mv green red
+  205  ls
+  206  ls red
+  207  cd..
+  208  cd ..
+  209  rm -rf color
+  210  ls
+  211  clear
+  212  mkdir edu
+  213  ls -al
+  214  cd edu
+  215  ls
+  216  ls -al
+  217  git init
+  218  ls -a
+  219  ls .gir
+  220  ls .git
+  221  ls
+  222  cd ..
+  223  cd edu
+  224  git status
+  225  echo 1 > a.txt
+  226  ls
+  227  cat a.txt
+  228  git add a.txt
+  229  git status
+  230  git config --global user.email "rupria.sk@gmail.com"
+  231  git config --global user.name "rupria.sk"
+  232  git config --list
+  233  git config --list --show-origin
+  234  cat C:/Users/playdata2/.gitconfig
+  235  git config --global user.name
+  236  git config --global user.email
+  237  git commit -m '260707 Add a.txt'
+  238  git status
+  239  git log
+  240  git clone https://github.com/rupria/basic-app.git
+  241  ls -a
+  242  git clone https://github.com/rupria/basic-app.git .
+  243  ls
+  244  echo 'my house' > house.txt
+  245  ls
+  246  git status
+  247  git add house.txt
+  248  git commit -m '260707 Add house.txt'
+  249  git push origin main 
+  250  git pull origin main
+  251  ls
+  252  exit
+  253  cd edu
+  254  git log --oneline
+  255  ls
+  256  cat a.txt
+  257  echo 2 >> a.txt
+  258  cat a.txt
+  259  git add a.txt
+  260  git commit -m '260707 Update a.txt'
+  261  git log --oneline
+  262  echo "3
+  263  4" >> a.txt
+  264  cat a.txt
+  265  git commit -am '260707 Update a.txt 3/4'
+  266  git log --oneline
+  267  echo red > color.txt
+  268  ls
+  269  ls -a
+  270  git status
+  271  git add color.txt
+  272  git status
+  273  git restore --staged color.txt
+  274  git status
+  275  git restore color.txt
+  276  git add color.txt
+  277  git status
+  278  git commit -m '260707 Add color,txt'
+  279  echo green >> color.txt
+  280  cat color.txt
+  281  git status
+  282  git add color.txt
+  283  git status
+  284  git restore --staged color.txt
+  285  git status
+  286  git restore color.txt
+  287  git status
+  288  cat color.txt
+  289  echo blue >> color.txt
+  290  git status
+  291  git restore color.txt
+  292  cat color.txt
+  293  git log
+  294  git log --oneline
+  295  git log --state
+  296  git log --stat
+  297  git log --oneline --stat
+  298  git log --graph
+  299  git log --graph --oneline
+  300  cat color.txt
+  301  echo echo blue > color.txt
+  302  git add color.txt
+  303  git commit -m '260707 Update color.txt'
+  304  git commit --amend '260707 Update color.txt blue'
+  305  git status color.txt
+  306  git status
+  307  git log --oneline
+  308  git reset
+  309  git status
+  310  cat color.txt
+  311  git add color.txt
+  312  git commit -m '260707 Update color.txt'
+  313  git status
+  314  echo green >> color.txt
+  315  git add color.txt
+  316  git commit -m '260707 Update color.txt'
+  317  git log --oneline
+  318  git reset --soft HEAD^
+  319  git log --oneline
+  320  git status
+  321  git reset --soft 31ab3a2
+  322  git log --oneline
+  323  git commit -m '260707 Update color.txt'
+  324  echo one > num.txt
+  325  ls
+  326  cat num.txt
+  327  git add num.txt
+  328  git commit -m '260707 Add unm.txt'
+  329  git log --ineline
+  330  git log --oneline
+  331  git reset --hard HEAD^
+  332  ls
+  333  git --origin -h
+  334  git --origin --h
+  335  git config -- global user.name “rupria”
+  336  git config -- global user.email “rupria.jjb@gmail.com“
+  337  git config status
+  338  git config --global --list
+  339  git config -- global user.email “rupria.jjb@gmail.com“
+  340  git config -- global user.name “rupria”
+  341  git config --global user.name "rupria"
+  342  git config --global user.email "rupria.jjb@gmail.com"
+  343  git confit --global --list
+  344  git confit --global --list --show-origin
+  345  git config --global --list
+  346  git log --oneline
+  347  git remote add origin https://github.com/rupria/basic-app.git
+  348  git push -u origin main
+  349  ehco one > data.txt
+  350  cat data.txt
+  351  ehco one > data.txt
+  352  echo one > data.txt
+  353  cat data.txt
+  354  git status
+  355  git add data.txt
+  356  git commit -m '260707 Add data.txt'
+  357  git push origin main 
+  358  git push origin main 
+  359  git status
+  360  git push origin main
+  361  git push origin main
+  362  git pull origin main
+  363  git push origin main
+  364  git remote add origin https://github.com/rupria/basic-app.git
+  365  git remote remove origin
+  366  git remote add origin https://github.com/rupria/basic-app.git
+  367  git push -u origin main
+  368  git remote add origin https://github.com/rupria/basic-app.git
+  369  git remote remove origin
+  370  git remote add origin https://github.com/rupria/basic-app.git
+  371  git push origin main
+  372  cat data.txt
+  373  echo one2 > data.txt
+  374  git add .
+  375  git commit -m 'Add data.txt'
+  376  git push origin main
+  377  git config --global user.email
+  378  git config --global ---unset user.email
+  379  git config --global -unset user.email
+  380  git config --global --unset user.email
+  381  git config --global
+  382  git config --global user.email
+  383  git config --global user.email "rupria.jjb@gmail.com"
+  384  git push .
+  385  git push
+  386  git push origin main
+  387  git push origin main
+  388  clear
+  389  ls
+  390  git pull origin main
+  391  ls
+  392  clear
+  393  echo '여기는 교육장입니다.' > stu.txt
+  394  git add stu.txt
+  395  git commit -m '260707 Add stu.txt'
+  396  git push origin main
+  397  mkdir office
+  398  cd office
+  399  pwd
+  400  echo "교육육장에서작업합니다." > work.txt
+  401  cat work.txt
+  402  git status
+  403  echo "교육장에서작업합니다." > work.txt
+  404  cat work.txt
+  405  ls -a
+  406  git init
+  407  ls -a
+  408  git status
+  409  git add work.txt
+  410  git status
+  411  git commit -m '260707 Add work.txt'
+  412  git remote add origin https://github.com/rupria/basic-app.git
+  413  git push -u origin main
+  414  git pull origin main
+  415  ls
+  416  cat homework.txt
+  417  git clone https://github.com/rupria/basic-app.git
+  418  ls
+  419  cd basic-app
+  420  ls
+  421  ls -a
+  422  echo home
+  423  ls
+  424  echo "숙제용 파일입니다." >  homework.txt
+  425  ls
+  426  cat homework.txt
+  427  git status
+  428  git add homework.txt
+  429  git status
+  430  git status
+  431  git push -m '260707 add homework.txt'
+  432  git status
+  433  git add homework.txt
+  434  git status
+  435  git commit -m '260707 Add homework.txt'
+  436  git status
+  437  git remote add origin https://github.com/rupria/basic-app.git
+  438  git push homework.txt
+  439  git status
+  440  git push --h
+  441  git push -h
+  442  git push -u origin main
+  443  ls
+  444  cat homework.txt
+  445  history > dat.txt
+  446  cd office
+  447  ls
+  448  git pull
+  449  echo '나는 개발자입니다.' > mydev.txt
+  450  ls
+  451  git add mydev.txt
+  452  git commit -m 'Add mydev.txt'
+  453  git push
+  454  git commit --amend -m 'Update dev'
+  455  git log --oneline
+  456  git push origin main
+  457  git push -f origin main
+  458  echo red > color.txt
+  459  ls
+  460  git add color.txt
+  461  git commit -m 'Add red'
+  462  git push origin main
+  463  echo green > green.txt
+  464  git add green.txt
+  465  git commit --amend -m 'Add color'
+  466  git log --onelint
+  467  git log --oneline
+  468  git push -f origin main
+  469  history > 0707data
+  470  history > 0707data.txt
