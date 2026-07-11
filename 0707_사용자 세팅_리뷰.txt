@@ -1,0 +1,10 @@
+playdata2@playdata MINGW64 ~/desktop/edu (main)
+$ git config --global user.name
+rupria.sk
+playdata2@playdata MINGW64 ~/desktop/edu (main)
+$ git config --global user.email
+rupria.sk@gmail.com
+
+# 기존 rupria.sk 계정에서 구글 정책 관련이슈 발생으로 계정 제한 상태.
+# 해당 내역에 대한 git 사용에 문제가 없지만. 관련하여 계정 차단 시의 리스크 감소를 위해 계정을 변경하였습니다.
+# 기존 : rupria.sk / rupria.sk@gmail.com > rurpa.jjb / rurpa.jjb@gmail.com
