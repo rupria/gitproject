@@ -453,7 +453,7 @@
   451  git add mydev.txt
   452  git commit -m 'Add mydev.txt'
   453  git push
-  454  git commit --amend -m 'Update dev'
+  454  git commit --amend -m 'Update dev' # 해당 영역에서 --m 으로 해야 올라가는걸로 확인.
   455  git log --oneline
   456  git push origin main
   457  git push -f origin main
