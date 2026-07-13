@@ -464,7 +464,7 @@
   462  git push origin main
   463  echo green > green.txt
   464  git add green.txt
-  465  git commit --amend -m 'Add color'
+  465  git commit --amend -m 'Add color' # 이 부분에서 푸시가 되지 않았음
   466  git log --onelint
   467  git log --oneline
   468  git push -f origin main
