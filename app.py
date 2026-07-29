@@ -1,20 +1,34 @@
 
-import streamlit as st
+import streamlit as st # 확장자가 길어서 st 로 줄임
 
-# 사용자 입력 관련 기능 소개
-st.title('튜토리얼 2 : 입력 위젯')
+# 앱의 메인 타이틀을 출력
+st.title('튜토리얼1 : 텍스트 출력')
 
-#문자열을 입력받을 수 있는 텍스트 필드 생성
-name =st.text_input('이름을 입력하세요')
 
-# 숫자를 입력받는 위젯 - 최소/최대값 범위 지정
-age = st.number_input("나이를 입력하세요", min_value=0, max_value=120)
+# 큰 제목을 출력
+st.header(" 기본 텍스트 출력")
 
-# 드롭다운 형태로 항목 선택
-hobby = st.selectbox("취미를 선택하세요", ["독서","운동","게임","요리"])
+# 일반적인 문자열을 그대로 출력
+st.text('기본 텍스트를 출력합니다.')
 
-# 체크박스 - True/False 값 반환
-agree = st.checkbox("개인정보 수집에 동의합니다.")
+# 중간 제목을 출력
+st.subheader("마크다운 활용")
 
-if name and agree:
-    st.success(f'{name}님,{age}세 / 취미:{hobby}')
+# 마크다운 문법을 활용하여 서식을 적용한 텍스트를 출력
+st.markdown("**굵게**,_기울임_, [링크](https://streamlit.io)")
+
+# # 코드 설명 섹션을 출력
+# st.subheader("코드 출력")
+# 
+#  # 코드 블록을 출력(하이라이팅 포함)
+# st.code("print('Hello, Streamlit!)", language="python")
+
+st.divider # 뭐야 뭐가 움직여
+
+# 코드 설명 섹션을 출력
+st.subheader("코드 출력")
+
+# 코드 블록을 출력 (하이라이팅 포함)
+st.code("print('Hello, Streamlit!')", language="python")
+
+st.divider
